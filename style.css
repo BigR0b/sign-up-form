@@ -13,6 +13,7 @@
 .container {
   display: flex;
   height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
@@ -64,8 +65,21 @@
 .paragraph-3 {
   padding-bottom: 20px;
 }
-.paragraph-3,
+
 .form-container {
-  background-color: white;
-  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-container div {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem;
+  color: gray;
+}
+
+input {
+  width: 300px;
+  margin-bottom: 20px;
 }
