@@ -42,15 +42,15 @@
               <div class="form-container">
                 <div>
                   <label for="f_name">FIRST NAME</label>
-                  <input type="text" name="f_name" id="f_name" />
+                  <input type="text" name="f_name" id="f_name" required />
                 </div>
                 <div>
                   <label for="l_name">LAST NAME</label>
-                  <input type="text" name="l_name" id="l_name" />
+                  <input type="text" name="l_name" id="l_name" required />
                 </div>
                 <div>
                   <label for="email">EMAIL</label>
-                  <input type="email" name="email" id="email" />
+                  <input type="email" name="email" id="email" required />
                 </div>
                 <div>
                   <label for="phone">PHONE NUMBER</label>
@@ -58,11 +58,23 @@
                 </div>
                 <div>
                   <label for="password">PASSWORD</label>
-                  <input type="password" name="password" id="password" />
+                  <input
+                    class="error"
+                    type="password"
+                    name="password"
+                    id="password"
+                    required
+                  />
                 </div>
                 <div>
                   <label for="password">CONFIRM PASSWORD</label>
-                  <input type="password" name="password" id="password" />
+                  <input
+                    class="error"
+                    type="password"
+                    name="password"
+                    id="password"
+                    required
+                  />
                 </div>
               </div>
               <button type="submit">Create Account</button>
